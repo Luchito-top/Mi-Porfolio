@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <section>
@@ -12,19 +14,21 @@
     <!--Menu de navegación-->
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#sobremi.html">Sobre mi</a></li>
-            <li><a href="#contacto.html">Contacto</a></li>
+            <li><a href="/Mi-Porfolio/index.html">Inicio</a></li>
+            <li><a href="/Mi-Porfolio/sobremi.html">Sobre mi</a></li>
+            <li><a href="/Mi-Porfolio/contacto.html">Contacto</a></li>
         </ul>
     </nav>
 </section>
 <footer>
     <!--Formulario de contacto-->
     <form action="">
-        <label for="Nombre">Nombre</label>
-        <input type="text" name="" id=""><br><br>
-        <label for="Apellido">Apellido</label>
-        <input type="text" name="" id=""><br><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"><br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido"><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br><br>
         <textarea name="" id="" cols="30" rows="10">Escriba su mensaje
         </textarea><br>
         <button type="submit">Enviar</button>
